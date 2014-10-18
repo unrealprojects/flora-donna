@@ -681,17 +681,8 @@ section.some_catalog {
     }
 }
 
-@media (min-width: 1270px) {
-    .Node {
-        width: 1240px;
-    }
-}
-
-@media (min-width: 1430px) {
-    .Node {
-        width: 1400px;
-    }
-
+.Node{
+    width: 98%;
 }
 
 @media (max-width: 1430px) {
@@ -1754,6 +1745,7 @@ ul.zoo-list > li {
     padding-bottom: 30px;
 }
 
+
 .item-page p.order1 {
     text-align: center;
     font-family: 'Marck Script', cursive;
@@ -1790,19 +1782,23 @@ ul.zoo-list > li {
     font-family: 'Open Sans', sans-serif;
     text-indent: 40px;
     list-style: none;
+    line-height: 2;
 }
 
 .item-page ul{
-    margin-bottom: 100px;
+    margin-bottom: 0px;
 }
 
 
-.item-page p.order5 {
+.item-page p.order5, .order_header, p.order1 {
     text-align: center;
-    font-size: 35px;
+    font-size: 48px;
     font-family: 'Marck Script', cursive;
     color: #0EBD07;
+
 }
+
+
 
 
 .Pagination{
@@ -1942,4 +1938,8 @@ ul.zoo-list > li {
 a:hover {
     text-shadow: 1px 1px 2px rgb(224, 255, 0);
     text-decoration: underline !important;
+}
+
+.white_ring3:hover:after {
+    border: 1px dashed white;
 }
