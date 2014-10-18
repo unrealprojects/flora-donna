@@ -1,0 +1,1931 @@
+body {
+    background: url("");
+}
+
+/* SECTION::HEADER */
+
+div.background {
+    background: url("/templates/protostar/img/img/back.png");
+    height: 252px;
+    display: block;
+    width: 100%;
+    min-width: 1024px;
+
+}
+
+.header_hoya img, .header_shlumberger img, .header_decoration img {
+    width: 100%;
+    height: 140px;
+    border-radius: 50%;
+    margin: 0 auto;
+    display: block;
+
+}
+
+.header_hoya, .header_decoration {
+    padding-top: 63px;
+    padding-bottom: 0px;
+}
+
+.header_shlumberger {
+    padding-top: 9px;
+}
+
+.header_strip hr {
+    border-top: 1px dashed #90a668;
+    width: 100%;
+
+    position: relative;
+    top: 10px;
+}
+
+/*класс для белых колец*/
+
+.white_ring1:after {
+    content: '';
+    display: block;
+    position: absolute;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    width: 93%;
+    height: 93%;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.white_ring2:after {
+    content: '';
+    display: block;
+    position: absolute;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    width: 110px;
+    height: 110px;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.white_ring3:after {
+    content: '';
+    display: block;
+    position: absolute;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    width: 95%;
+    height: 95%;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.white_ring4:after {
+    content: '';
+    display: block;
+    position: absolute;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    width: 70px;
+    height: 70px;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.header_hoya_img a:hover:after {
+    content: '';
+    display: block;
+    position: absolute;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    border: 1px dashed #ffffff;
+    width: 93%;
+    height: 93%;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+div.header_hoya_img {
+    position: relative;
+    width: 140px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.span_header {
+    display: block;
+    text-align: center;
+    font-family: 'Marck Script', cursive;
+    font-size: 36px;
+    color: #4e7715;
+    text-shadow: 1px 0px 4px rgba(255, 255, 255, 1);
+}
+
+div.header_strip {
+    height: 58px;
+    width: 100%;
+    background:#4b720f;
+    background: linear-gradient(to top, #4b720f, #65973d);
+    position: relative;
+    display: block;
+    width: 100%;
+    min-width: 1024px;
+
+}
+
+div.header_strip:before {
+
+    content: "";
+    border-top: 1px dashed #90a668;
+    position: absolute;
+    top: 4px;
+    width: 100%;
+
+}
+
+div.header_strip:after {
+    border-bottom: 1px dashed #90a668;
+
+    content: "";
+    top: 54px;
+    position: absolute;
+
+    width: 100%;
+
+}
+
+/*классы для текста*/
+.text_h1 {
+    font-family: 'Marck Script', cursive;
+    font-size: 66px;
+}
+
+.text_h2 {
+    font-family: 'Marck Script', cursive;
+    font-size: 36px;
+    color: #4c7310;
+}
+
+.text_h3 {
+    font-family: 'Marck Script', cursive;
+    font-size: 30px;
+}
+
+.text_p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    line-height: 2;
+}
+
+.text_p2 {
+    font-family: 'Marck Script', cursive;
+    font-size: 48px;
+}
+
+.text_p3 {
+    font-family: 'Marck Script', cursive;
+    font-size: 24px;
+    line-height: 2;
+}
+
+.text_span1 {
+    color: #ede906;
+    font-family: 'Marck Script', cursive;
+    font-size: 48px;
+    display: block;
+    position: relative;
+    top: 23px;
+    line-height: 18px;
+    text-align: center;
+}
+
+.text_span2 {
+    color: #ede906;
+    font-family: 'Marck Script', cursive;
+    font-size: 24px;
+    display: block;
+    position: relative;
+    top: 23px;
+    line-height: 18px;
+    text-align: center;
+}
+
+.text_span3 {
+    color: #ede906;
+    font-family: 'Marck Script', cursive;
+    font-size: 48px;
+
+    position: relative;
+    top: 31px;
+    line-height: 18px;
+    text-align: center;
+    left: 25px;
+}
+
+.text_span4 {
+    color: #ede906;
+    font-family: 'Marck Script', cursive;
+    font-size: 24px;
+
+    position: relative;
+    top: 30px;
+    line-height: 18px;
+    text-align: center;
+    left: 19px;
+}
+
+p.name1 {
+    text-align: right;
+    position: relative;
+    left: -7px;
+
+}
+
+p.name2 {
+    text-align: left;
+    position: relative;
+    left: 15px;
+}
+
+p.name1, p.name2 {
+    color: #ede909;
+    text-shadow: #547e1e 1px 0px, #547e1e 1px 1px, #547e1e 0px 1px, 1px, #547e1e -1px 0px, #547e1e -1px -1px, #547e1e 0px -1px, #547e1e 1px -1px;
+    font-size: 48px;
+    font-family: 'Marck Script', cursive;
+    top: 3px;
+}
+
+p.name1 a, p.name2 a {
+    color: #ede909;
+    text-shadow: #547e1e 1px 0px, #547e1e 1px 1px, #547e1e 0px 1px, 1px, #547e1e -1px 0px, #547e1e -1px -1px, #547e1e 0px -1px, #547e1e 1px -1px;
+    text-decoration: none;
+}
+
+p.gallery_order1, p.gallery_order2 {
+    text-align: center;
+    font-size: 36px;
+    color: white;
+    margin-top: 5px;
+    font-family: 'Marck Script', cursive;
+    text-decoration: none;
+
+}
+
+.gallery_order1 a, p.gallery_order2 a {
+    color: white;
+    text-decoration: none;
+}
+
+p.gallery_order1 a:hover, p.gallery_order2 a:hover {
+    color: #ede805;
+    text-decoration: none;
+}
+
+div.logo_phone {
+    height: 120px;
+    width: 120px;
+    background-color: #4e7715;
+    border-radius: 50%;
+    margin-top: -32px;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    position: relative;
+    z-index: 3;
+}
+
+.logo_phone a:hover:after {
+    content: '';
+    display: block;
+    position: absolute;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    border: 1px dashed white;
+    width: 110px;
+    height: 110px;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+
+}
+
+.div_logo_phone {
+    display: block;
+}
+
+div.logo_home img {
+    left: 7px;
+    top: 15px;
+    position: relative;
+
+}
+
+.lent2 img {
+    float: right;
+}
+
+.span_header a {
+    color: #4E7715;
+    text-shadow: 1px 0px 4px #FFF;
+    text-decoration: none;
+}
+
+/*Приветствие*/
+p.wellc1 {
+    font-size: 48px;
+    font-family: 'Marck Script', cursive;
+    color: #4c7310;
+    text-align: center;
+}
+
+p.wellc2 {
+    font-size: 24px;
+    font-family: 'Marck Script', cursive;
+    color: #000000;
+    text-align: center;
+
+}
+
+/*Название Каталоги*/
+section.catalogs {
+    margin-top: 30px;
+}
+
+div.catalogs_header {
+    margin: 0 auto;
+    display: block;
+    margin-top: 42px;
+}
+
+div.catalogs_header hr {
+    width: 100%;
+    border: none;
+    border-top: 1px solid #4c7310;
+    position: relative;
+    display: block;
+}
+
+div.catalogs_header p {
+    margin-top: 20px;
+    color: #4c7310;
+    margin: 0 auto;
+    display: block;
+    padding-bottom: 15px;
+    text-align: center;
+}
+
+div.catalogs_header div.top img {
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: -15px;
+    display: block;
+    background-color: white;
+    padding-left: 5px;
+    padding-right: 5px;
+
+}
+
+div.catalogs_header div.bottom img {
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: -7px;
+    display: block;
+    background-color: white;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+div.top, div.bottom {
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+}
+
+/*Каталоги на главной*/
+
+div.catalogs_img {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+div.catalogs_img img {
+    border-radius: 50%;
+    width: 100%;
+    display: block;
+}
+
+p.name {
+    text-align: left;
+}
+
+p.name a {
+    color: #4c7310;
+    text-decoration: none;
+}
+
+p.description {
+    text-align: left;
+}
+
+.catalogs_flowers span a {
+    text-decoration: none;
+    color: #4c7310;
+    font-size: 30px;
+    font-family: 'Marck Script', cursive;
+}
+
+.catalogs_flowers span {
+    padding-right: 30px;
+}
+
+/*Новинки*/
+section.News {
+    margin-bottom: 250px;
+}
+
+div.News1_img {
+    position: relative;
+    margin: 0 auto;
+}
+
+div.News1_img img {
+    border-radius: 50%;
+    width: 100%;
+    border-radius: 50%;
+    margin: 0 auto;
+    display: block;
+}
+
+.News1_description p a {
+    text-align: left;
+    color: #4c7310;
+    text-decoration: none;
+}
+
+div.tape img {
+    width: 450px;
+    height: 141px;
+}
+
+div.tape {
+    background: url("/templates/protostar/img/img/tape.png");
+    width: 450px;
+    height: 141px;
+}
+
+div.tape div.grivna, div.tape .rubl, div.tape .dollar {
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+    background-color: #629237;
+    position: relative;
+    margin: 0 auto;
+    float: left;
+    left: 150px;
+    top: 30px;
+
+}
+
+div.tape div.grivna, div.tape .dollar {
+    top: 51px;
+}
+
+/*Footer*/
+
+.background_footer {
+    background: url("/templates/protostar/img/img/back.png");
+    height: 252px;
+    display: block;
+    width: 100%;
+    min-width: 1024px;
+}
+
+.header_strip_footer {
+    height: 56px;
+    width: 100%;
+    background:#4b720f;
+    background: linear-gradient(to top, #4b720f, #65973d);
+    position: relative;
+}
+
+.header_hoya_footer img, .header_shlumberger_footer img, .header_decoration_footer img {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    margin: 0 auto;
+    display: block;
+
+}
+
+p.mail {
+    text-align: center;
+    font-family: 'Marck Script', cursive;
+    font-size: 36px;
+    color: #ede906;
+    text-shadow: #547e1e 1px 0px, #547e1e 1px 1px, #547e1e 0px 1px, #547e1e -1px 0px, #547e1e -1px -1px, #547e1e 0px -1px, #547e1e 1px -1px;
+    position: relative;
+    top: 6px;
+}
+
+p.mail a {
+    text-decoration: none;
+    color: #ede906;
+    text-shadow: #547e1e 1px 0px, #547e1e 1px 1px, #547e1e 0px 1px, #547e1e -1px 0px, #547e1e -1px -1px, #547e1e 0px -1px, #547e1e 1px -1px;
+}
+
+/*Каталог на Хойя*/
+
+.white_square:after {
+    content: '';
+    display: block;
+    position: absolute;
+    border: 1px solid #fff;
+    width: 95%;
+    height: 95%;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.white_square2:after {
+    content: '';
+    display: block;
+    position: absolute;
+    border: 1px solid #fff;
+    width: 75%;
+    height: 75%;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.foto1, .foto2 {
+    position: relative;
+    width: 100%;
+
+}
+
+section.some_catalog {
+    margin-bottom: 43px;
+}
+
+.gallery {
+    width: 20%;
+    float: left;
+    position: relative;
+    padding: 4px;
+}
+
+.gallery img {
+    width: 100%;
+
+}
+
+.two_foto_description p a {
+    text-decoration: none;
+    color: #4C7310;
+}
+
+/*классы для позиционирования*/
+.margin_bottom1 {
+    margin-bottom: 22px;
+}
+
+.float_right {
+    float: right;
+}
+
+.margin_bottom2 {
+    margin-bottom: 50px;
+}
+
+.margin_bottom3 {
+    margin-bottom: 150px;
+}
+
+.margin_top {
+    margin-top: 50px;
+}
+
+.margin_left_right {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+/* Grid-Node-1-5 для главной галереи*/
+
+[class*='Grid-Node-1-5'] {
+    padding: 10px;
+}
+
+/*фиксировання вёрстка*/
+.Node {
+    width: 980px;
+}
+
+@media (min-width: 1010px) {
+    .Node {
+        width: 980px;
+    }
+
+}
+
+@media (max-width: 1270px) {
+    .header_hoya_footer, .header_shlumberger_footer, .header_decoration_footer {
+        padding: 0 !important;
+
+        position: relative;
+    }
+
+    .span_header {
+        font-size: 30px;
+    }
+
+    .text_p {
+        font-size: 15px;
+    }
+}
+
+@media (min-width: 1270px) {
+    .Node {
+        width: 1240px;
+    }
+}
+
+@media (min-width: 1430px) {
+    .Node {
+        width: 1400px;
+    }
+
+}
+
+@media (max-width: 1430px) {
+    .width_100_procents {
+        width: 100%;
+    }
+
+    .text_h3 {
+        font-size: 48px;
+    }
+
+    .News1_description {
+        padding-left: 40px;
+    }
+
+    .header_hoya_footer, .header_shlumberger_footer, .header_decoration_footer {
+        padding: 0 !important;
+        top: 40px;
+        position: relative;
+    }
+
+    .span_header {
+        font-size: 30px;
+    }
+
+}
+
+
+
+/*Анимация*/
+
+@keyframes YourNameEffect {
+    from {
+        left: -2000px;
+        opacity: 0;
+    }
+    to {
+        left: 0px;
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes YourNameEffect {
+    from {
+        left: -2000px;
+        opacity: 0;
+    }
+    to {
+        left: 0px;
+        opacity: 1;
+    }
+}
+
+@keyframes YourNameEffect2 {
+    from {
+        top: -2000px;
+        opacity: 0;
+
+    }
+    to {
+        top: 0px;
+        opacity: 1;
+
+    }
+}
+
+@-webkit-keyframes YourNameEffect2 {
+    from {
+        top: -2000px;
+        opacity: 0;
+
+    }
+    to {
+        top: 0px;
+        opacity: 1;
+
+    }
+}
+
+@keyframes YourNameEffect3 {
+    from {
+        right: -2000px;
+        opacity: 0;
+
+    }
+    to {
+        right: 0px;
+        opacity: 1;
+
+    }
+}
+
+@-webkit-keyframes YourNameEffect3 {
+    from {
+        right: -2000px;
+        opacity: 0;
+
+    }
+    to {
+        right: 0px;
+        opacity: 1;
+
+    }
+}
+
+@keyframes YourNameEffect4 {
+    from {
+
+        opacity: 0;
+
+    }
+    to {
+
+        opacity: 1;
+
+    }
+}
+
+@-webkit-keyframes YourNameEffect4 {
+    from {
+
+        opacity: 0;
+
+    }
+    to {
+
+        opacity: 1;
+
+    }
+}
+
+.className {
+    animation: YourNameEffect 1s;
+    -webkit-animation: YourNameEffect 1s;
+    -webkit-animation-delay: 0.5s;
+    -moz-animation-delay: 0.5s;
+}
+
+.className2 {
+    animation: YourNameEffect2 1s;
+    -webkit-animation: YourNameEffect2 1s;
+    -webkit-animation-delay: 0.5s;
+    -moz-animation-delay: 0.5s;
+}
+
+.className3 {
+    animation: YourNameEffect3 1s;
+    -webkit-animation: YourNameEffect3 1s;
+    -webkit-animation-delay: 0.5s;
+    -moz-animation-delay: 0.5s;
+}
+
+.className4 {
+    animation: YourNameEffect4 2s;
+    -webkit-animation: YourNameEffect4 2s;
+    -webkit-animation-delay: 0.5s;
+    -moz-animation-delay: 0.5s;
+}
+
+/*Список растений*/
+section.Node {
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.blog-default .details .heading h1 {
+    text-align: center;
+    font-family: 'Marck Script', cursive;
+    font-size: 66px;
+    color: #4c7310;
+    margin: 0 auto;
+    border-top: 1px solid #4c7310;
+    border-bottom: 1px solid #4c7310;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    font-weight: 400;
+}
+
+.details.alignment-left:after {
+    background-image: url("/templates/protostar/img/img/decorations2.png");
+    width: 122px;
+    background-repeat: no-repeat;
+    position: relative;
+    content: "";
+    height: 22px;
+    background-color: white;
+    background-position: center;
+    margin: 0 auto;
+    display: block;
+    top: -8px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.details.alignment-left:before {
+    background-image: url("/templates/protostar/img/img/decorations1.png");
+    width: 122px;
+    background-repeat: no-repeat;
+    position: relative;
+    content: "";
+    height: 22px;
+    background-color: white;
+    z-index: 100;
+    display: block;
+    margin: 0 auto;
+    top: 8px;
+    padding-left: 5px;
+    padding-right: 5px;
+    background-position: center;
+}
+
+.details.alignment-left {
+    position: relative;
+}
+
+.blog-default .items .details {
+    margin-top: 25px;
+    margin-bottom: 50px;
+}
+
+.blog-default .items h1 a {
+    text-decoration: none;
+    color: #4C7310;
+    font-family: 'Marck Script', cursive;
+    font-size: 48px;
+    width: 75%;
+    float: right;
+    font-weight: 400;
+    padding-left: 30px;
+
+}
+
+.blog-default .items .element p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    line-height: 2;
+    text-align: left;
+    float: left;
+
+}
+
+.blog-default .items .element.element-textarea {
+    width: 75%;
+    float: left;
+    padding-left: 30px;
+
+}
+
+.items .pos-meta a {
+    position: relative;
+    margin-bottom: 40px;
+}
+
+.items .pos-meta img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.items .pos-meta a:after {
+    content: '';
+    display: block;
+    position: absolute;
+    border: 1px solid #fff;
+    width: 95%;
+    height: 95%;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.items div.element.element-image.first {
+    position: relative;
+    width: 25%;
+    float: left;
+
+}
+
+.items div.element.element-image.first img {
+    width: 100%;
+    height: auto;
+}
+
+.items .element.element-text {
+    position: relative;
+    padding-right: 45px;
+    background: url("/templates/protostar/img/img/krug.png");
+    background-repeat: no-repeat;
+    width: 88px;
+    height: 88px;
+    display: block;
+    float: left;
+    left: 137px;
+    margin-right: 5px;
+
+}
+
+.items {
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 50px;
+    float: left;
+}
+
+.items .element.element-text span {
+    color: #ede906;
+    font-family: 'Marck Script', cursive;
+    font-size: 36px;
+}
+
+.items .element.element-text h3 {
+    color: #ede906;
+    font-family: 'Marck Script', cursive;
+    font-size: 24px;
+
+}
+
+.items .pos-content {
+    background: url("/templates/protostar/img/img/tape.png");
+    background-size: 100%;
+    width: 500px;
+    height: 141px;
+    float: right;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.items .element.element-text.first, .items .element.element-text.last {
+    top: 52px;
+}
+
+.items .element.element-text {
+    top: 30px;
+}
+
+.items .element.element-text.first h3 {
+    position: absolute;
+    left: 27px;
+    top: 40px;
+}
+
+.items .element.element-text.first span {
+    position: absolute;
+    top: 12px;
+    text-align: center;
+    width: 86px;
+    display: block;
+}
+
+.items .element.element-text h3 {
+    position: absolute;
+    left: 27px;
+    top: 40px;
+}
+
+.items .element.element-text span {
+    position: absolute;
+    top: 12px;
+    text-align: center;
+    width: 86px;
+    display: block;
+}
+
+.items .element.element-text.last h3 {
+    position: absolute;
+    left: 48px;
+    top: 30px;
+}
+
+.items .element.element-text.last span {
+    position: absolute;
+    top: 21px;
+    text-align: right;
+    width: 46px;
+    display: block;
+}
+
+.items .pos-meta {
+    width: 25%;
+    float: left;
+}
+
+.items .pos-meta a {
+    display: block;
+}
+
+/*Список растений внутренняя страница*/
+.item .pos-meta a {
+    position: relative;
+}
+
+.item .pos-meta img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.item .pos-meta a:after {
+    content: '';
+    display: block;
+    position: absolute;
+    border: 1px solid #fff;
+    width: 95%;
+    height: 95%;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.item .pos-meta {
+    width: 33.33%;
+    float: left;
+}
+
+.item .pos-meta a {
+    margin-bottom: 21px;
+    display: block;
+}
+
+.blog-default .item h1 {
+    color: #4C7310;
+    font-family: 'Marck Script', cursive;
+    font-size: 60px;
+    width: 66.66%;
+    float: right;
+    font-weight: 400;
+    padding-left: 30px;
+}
+
+.item div.element.element-image.first:after {
+    content: '';
+    display: block;
+    position: absolute;
+    border: 1px solid #fff;
+    width: 95%;
+    height: 95%;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.blog-default .item .element p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    line-height: 2;
+    text-align: left;
+    float: left;
+
+}
+
+.blog-default .item .element.element-textarea {
+    width: 66.66%;
+    float: left;
+    padding-left: 30px;
+
+}
+
+.item {
+    position: relative;
+    top: 40px;
+}
+
+.item .pos-content {
+    background: url("/templates/protostar/img/img/tape.png");
+    background-size: 100%;
+    width: 500px;
+    height: 141px;
+    float: right;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.item #comments {
+    clear: both;
+}
+
+.item .element.element-text {
+    position: relative;
+    padding-right: 45px;
+    background: url("/templates/protostar/img/img/krug.png");
+    background-repeat: no-repeat;
+    width: 88px;
+    height: 88px;
+    display: block;
+    float: left;
+    left: 137px;
+    margin-right: 5px;
+
+}
+
+.item .element.element-text span {
+    color: #ede906;
+    font-family: 'Marck Script', cursive;
+    font-size: 40px;
+}
+
+.item .element.element-text h3 {
+    color: #ede906;
+    font-family: 'Marck Script', cursive;
+    font-size: 24px;
+}
+
+.item .element.element-text {
+    top: 30px;
+}
+
+.item .element.element-text.first, .item .element.element-text.last {
+    top: 52px;
+}
+
+.item .element.element-text.first h3 {
+    position: absolute;
+    left: 27px;
+    top: 40px;
+}
+
+.item .element.element-text.first span {
+    position: absolute;
+    top: 12px;
+    text-align: center;
+    width: 86px;
+    display: block;
+}
+
+.item .element.element-text h3 {
+    position: absolute;
+    left: 27px;
+    top: 40px;
+}
+
+.item .element.element-text span {
+    position: absolute;
+    top: 12px;
+    text-align: center;
+    width: 86px;
+    display: block;
+}
+
+.item .element.element-text.last h3 {
+    position: absolute;
+    left: 48px;
+    top: 30px;
+}
+
+.item .element.element-text.last span {
+    position: absolute;
+    top: 21px;
+    text-align: right;
+    width: 46px;
+    display: block;
+}
+
+/*Список растений Хои с двумя фотками */
+
+.items .pos-media {
+
+}
+
+.items .element.element-image {
+    float: left;
+    clear: left;
+    width: 326px;
+    position: relative;
+}
+
+.items .element.element-image:after {
+    content: '';
+    display: block;
+    position: absolute;
+    border: 1px solid #fff;
+    width: 95%;
+    height: 95%;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.teaser-item {
+    clear: both;
+    margin-bottom: 30px;
+    float: left;
+    border-bottom: 1px solid #4c7310;
+    padding-bottom: 30px;
+    width: 100%;
+}
+
+/*Комментарии*/
+iframe {
+    display: block;
+}
+
+#yoo-zoo #comments .comment-head .author {
+    margin: 20px 0 0 0;
+    font-size: 36px;
+    line-height: 18px;
+    font-weight: 400;
+    text-shadow: 1px 1px 0 rgba(255, 255, 255, 1.0);
+    text-decoration: none;
+    width: 50%;
+    float: left;
+    font-family: 'Marck Script';
+}
+
+#yoo-zoo #comments .comment-head {
+    padding: 5px;
+    overflow: hidden;
+}
+
+#yoo-zoo #comments .comment-head .meta {
+    margin-top: 3px;
+    font-family: 'Marck Script', cursive;
+    font-size: 28px;
+    color: #4c7310;
+    width: 50%;
+    float: left;
+    text-align: right;
+}
+
+#yoo-zoo #comments .comment-body .content {
+    text-align: left;
+    font-family: 'Marck Script', cursive;
+    font-size: 24px;
+    line-height: 2;
+}
+
+#yoo-zoo #comments #respond input[type='text'] {
+    width: 439px;
+    height: 25px;
+    padding-left: 5px;
+    line-height: 25px;
+    border: 1px solid #4C7310 !important;
+}
+
+#yoo-zoo #comments #respond textarea {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 439px;
+    height: 100px;
+    border: 1px solid;
+    border-color: #4C7310;
+    padding: 10px;
+}
+
+#yoo-zoo #comments {
+    padding-top: 55px;
+    margin-bottom: 100px;
+}
+
+#yoo-zoo #comments ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    margin-bottom: 80px;
+}
+
+.item .email #comments-email {
+    display: none;
+}
+
+.item .url #comments-url {
+    display: none;
+}
+
+.meta a {
+    display: none;
+}
+
+.comment-body .reply {
+    display: none;
+}
+
+#yoo-zoo #comments #respond h3 {
+    color: #4C7310;
+    font-family: 'Marck Script', cursive;
+}
+
+#yoo-zoo #comments .comment-head .author a {
+    text-decoration: none;
+    color: #4C7310;
+    font-family: 'Marck Script', cursive;
+}
+
+#yoo-zoo #comments #respond form div.actions input[type="submit"] {
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #4C7310;
+    color: white;
+    border-radius: 5px;
+    padding: 15px;
+    border: none;
+    position: relative;
+    cursor:pointer;
+}
+
+#yoo-zoo #comments #respond form div.actions input[type="submit"]:hover {
+    color: #ede906;
+}
+
+#yoo-zoo #comments h3.comments-meta {
+    text-align: center;
+    font-family: 'Marck Script', cursive;
+    font-size: 66px;
+    color: #4c7310;
+    margin: 0 auto;
+    border-top: 1px solid #4c7310;
+    border-bottom: 1px solid #4c7310;
+    font-weight: 400;
+    margin-bottom: 50px;
+}
+
+#yoo-zoo #comments h3.comments-meta:before {
+    background-image: url("/templates/protostar/img/img/decorations1.png");
+    width: 122px;
+    background-repeat: no-repeat;
+    position: relative;
+    content: "";
+    height: 22px;
+    background-color: white;
+    z-index: 100;
+    display: block;
+    margin: 0 auto;
+    top: -15px;
+    padding-left: 5px;
+    padding-right: 5px;
+    background-position: center;
+}
+
+#yoo-zoo #comments h3.comments-meta:after {
+    background-image: url("/templates/protostar/img/img/decorations2.png");
+    width: 122px;
+    background-repeat: no-repeat;
+    position: relative;
+    content: "";
+    height: 22px;
+    background-color: white;
+    background-position: center;
+    margin: 0 auto;
+    display: block;
+    top: 15px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+#yoo-zoo #comments ul.level1 {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+#yoo-zoo #comments ul.level1 li {
+    margin-bottom: 80px;
+}
+
+#yoo-zoo #comments #respond {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+#yoo-zoo #comments #respond form #recaptcha_table tbody {
+    border: 1px solid;
+    border-color: #4C7310;
+}
+
+#yoo-zoo #comments #respond form div.recaptcha_input_area #recaptcha_challenge_field_holder input {
+    border: 1px solid;
+    border-color: #4C7310;
+}
+
+.item .pos-meta .zoo-gallery-wall a {
+    height: 68px;
+    overflow: hidden;
+    width: 20%;
+    padding: 3px;
+}
+
+.item .pos-meta .zoo-gallery-wall a:hover:before {
+    display: block;
+    content: "";
+    height: 35px;
+    position: absolute;
+    background-image: url("/templates/protostar/img/img/lupa1.png");
+    background-repeat: no-repeat;
+    top: 20px;
+    left: 0px;
+    right: 0px;
+    background-position: center;
+}
+
+.item .pos-meta .zoo-gallery-wall a img {
+}
+
+.item .pos-meta .zoo-gallery-wall a:after {
+    border: none;
+}
+
+@media (max-width: 1590px) {
+    .item .pos-meta .zoo-gallery-wall a {
+        height: 58px;
+    }
+}
+
+@media (max-width: 1270px) {
+    .item .pos-meta .zoo-gallery-wall a {
+        height: 46px;
+    }
+
+    .item .pos-meta .zoo-gallery-wall a:hover:before {
+        top: 8px;
+    }
+}
+
+/*Модуль Новинки*/
+
+.zoo-item-list.zoo-list.blog-default li {
+    width: 50%;
+    float: left;
+    margin-bottom: 25px;
+}
+
+.zoo-item-list div.media-left {
+    margin: 0px 10px 0 0;
+    float: left;
+    width: 25%;
+}
+
+.zoo-item-list div.media-left a:after {
+    content: '';
+    display: block;
+    position: absolute;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    width: 93%;
+    height: 93%;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.zoo-item-list div.media-left img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 50%;
+}
+
+.zoo-item-list div.media-left a {
+    position: relative;
+    display: block;
+    margin-bottom: 15px;
+}
+
+.zoo-item-list p {
+    font-family: 'Marck Script', cursive;
+    font-size: 40px;
+    text-align: center;
+    color: #4c7310;
+}
+
+.zoo-item-list p.title {
+    margin: 0px;
+    font-family: 'Marck Script', cursive;
+    font-size: 40px;
+    width: 100%;
+    font-weight: 400;
+    padding-left: 30px;
+    text-align: left;
+}
+
+.zoo-item-list p.title a {
+    text-decoration: none;
+    color: #4C7310;
+}
+
+.zoo-item-list div.description {
+    background: url("/templates/protostar/img/img/tape.png");
+    background-size: 100%;
+    width: 500px;
+    height: 141px;
+    float: left;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.zoo-item-list div.description > div {
+    position: relative;
+    padding-right: 45px;
+    background: url("/templates/protostar/img/img/krug.png");
+    background-repeat: no-repeat;
+    width: 88px;
+    height: 88px;
+    display: block;
+    float: left;
+    left: 137px;
+    margin-right: 5px;
+}
+
+.zoo-item-list div.description .element.element-text.first,
+.zoo-item-list div.description .element.element-text.last {
+    top: 52px;
+}
+
+.zoo-item-list div.description .element.element-text {
+    top: 30px;
+}
+
+.zoo-item-list div.description .element.element-text h3 {
+    color: #ede906;
+    font-family: 'Marck Script', cursive;
+    font-size: 24px;
+    position: absolute;
+    left: 27px;
+    top: 40px;
+}
+
+.zoo-item-list div.description .element.element-text span {
+    color: #ede906;
+    font-family: 'Marck Script', cursive;
+    font-size: 40px;
+    position: absolute;
+    top: 12px;
+    text-align: center;
+    width: 86px;
+    display: block;
+}
+
+.zoo-item-list div.description .element.element-text.first h3 {
+    position: absolute;
+    left: 27px;
+    top: 40px;
+}
+
+.zoo-item-list div.description .element.element-text.first span {
+    position: absolute;
+    top: 12px;
+    text-align: center;
+    width: 86px;
+    display: block;
+}
+
+.zoo-item-list div.description .element.element-text.last h3 {
+    position: absolute;
+    left: 48px;
+    top: 30px;
+}
+
+.zoo-item-list div.description .element.element-text.last span {
+    position: absolute;
+    top: 18px;
+    text-align: right;
+    width: 46px;
+    display: block;
+}
+
+ul.zoo-list > li {
+    border-top: none;
+}
+
+.zoo-item-list.zoo-list.blog-default {
+    margin-top: 40px;
+}
+
+/*Медиа для новинок и скидок*/
+@media (max-width: 1430px) {
+    .zoo-item-list.zoo-list.blog-default li {
+        width: 100%;
+    }
+
+    .zoo-item-list div.description {
+        margin-left: 50px;
+    }
+
+    .zoo-item-list p.title a {
+        margin-left: 50px;
+    }
+
+    .zoo-item-list div.media-left {
+        width: 35%;
+    }
+}
+
+/*Галлерея общая*/
+.wk-gallery.wk-gallery-wall.clearfix a {
+    display: block;
+    margin: 0 auto;
+    width: 10%;
+    overflow: hidden;
+    height: 108px;
+    position: relative;
+    padding: 10px;
+}
+
+.wk-gallery.wk-gallery-wall.clearfix a img {
+    display: block;
+}
+
+.wk-gallery.wk-gallery-wall.clearfix a:hover:before {
+    background-image: url("/templates/protostar/img/img/lupa1.png");
+    content: "";
+    display: block;
+    position: absolute;
+    background-repeat: no-repeat;
+    height: 35px;
+    top: 15px;
+    left: 0px;
+    right: 0px;
+    background-position: center;
+    top: 45px;
+}
+
+@media (max-width: 1590px) {
+    .wk-gallery.wk-gallery-wall.clearfix a {
+        height: 97px;
+    }
+
+    .wk-gallery.wk-gallery-wall.clearfix a:hover:before {
+        top: 45px;
+    }
+}
+
+@media (max-width: 1430px) {
+    .wk-gallery.wk-gallery-wall.clearfix a {
+        height: 87px;
+    }
+
+    .wk-gallery.wk-gallery-wall.clearfix a:hover:before {
+        top: 35px;
+    }
+}
+
+@media (max-width: 1270px) {
+    .wk-gallery.wk-gallery-wall.clearfix a {
+        height: 67px;
+    }
+
+    .wk-gallery.wk-gallery-wall.clearfix a:hover:before {
+        top: 23px;
+    }
+}
+
+/*Заказ*/
+
+.item-page p.order3, p.order4, p.order5, p.order6, p.order7, p.order8, p.order9 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    line-height: 2;
+    padding-bottom: 30px;
+}
+
+.item-page p.order1 {
+    text-align: center;
+    font-family: 'Marck Script', cursive;
+    font-size: 48px;
+    color: #4e7715;
+    padding-bottom: 10px;
+}
+
+.item-page p.order2 {
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Marck Script', cursive;
+    color: #4e7715;
+    padding-bottom: 30px;
+}
+
+.item-page p.order3 {
+    text-align: center;
+    font-size: 35px;
+    font-family: 'Marck Script', cursive;
+    color: #4e7715;
+}
+
+.item-page .order4, .item-page .order6, .item-page .order7, .item-page .order8, .item-page .order9 {
+    padding-right: 30px;
+    padding-left: 30px;
+    text-align: justify;
+
+}
+.item-page ul li{
+    padding-bottom: 40px;
+    margin-left: 20px;
+    font-size: 24px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.item-page ul{
+    margin-bottom: 100px;
+}
+
+
+.item-page p.order5 {
+    text-align: center;
+    font-size: 35px;
+    font-family: 'Marck Script', cursive;
+    color: #4e7715;
+}
+
+
+.Pagination{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    float: left;
+    font-size: 18px;
+    margin-left: 25px;
+    margin-bottom: 100px;
+    margin-top: 100px;
+
+}
+
+.Pagination li{
+    margin-top: 0 !important;
+    margin-right: 1px;
+    float: left;
+
+}
+
+.Pagination li > a {
+    color: #fff;
+    display: block;
+    padding: 20px 30px;
+    background:#4b720f;
+        background: linear-gradient(to top, #4b720f, #65973d);
+    text-decoration: none;
+}
+
+.Pagination li > a:hover{
+    background:#4b720f;
+    background: linear-gradient(to bottom, #4b720f, #65973d);
+}
+
+.Pagination li > span {
+    color: #fff;
+    display: block;
+    padding: 20px 30px;
+    background:  #4b720f;
+}
+
+.Pagination{
+    border-left: 10px solid #65973d;
+
+}
+
+.zoo-item-list p.links{
+    margin: 5px 0 0 0;
+    clear: both;
+    font-size: 48px;
+    color: rgb(190, 190, 0);
+    width: 100%;
+    float: right;
+}
+
+
+.pos-links{
+    width:100%;
+}
+.pos-links .element.element-text.first.last {
+    background: none;
+    border: none;
+    float: left;
+    position: static;
+    width: 50%;
+    margin-left: 30px;
+    font-size: 48px;
+    font-family: 'Marck Script', cursive;
+    color: rgb(190, 190, 0);
+    clear: none;
+    display: inline-block;
+}
+.pos-links .element.element-text.first.last span{
+    background: none;
+    border: none;
+    display: inline;
+    position: static;
+    font-size: 48px;
+    font-family: 'Marck Script', cursive;
+    color: rgb(190, 190, 0);
+    clear: none;
+}
+
+
+
+.pos-bottom{
+    background: none;
+    border: none;
+    float: left;
+    position: static;
+    width: 50% !important;
+
+}
+
+.pos-bottom .element.element-text{
+    background: none !important;
+    border: none !important;
+    float: left !important;
+    position: static !important;
+    width: 75% !important;
+    margin-left: 30px !important;
+    font-size: 48px !important;
+    font-family: 'Marck Script', cursive !important;
+    color: rgb(190, 190, 0) !important;
+    clear: none !important;
+    display: inline-block !important;
+}
+.pos-bottom .element.element-text h3{
+    background: none !important;
+    border: none  !important;
+    float: left !important;
+    position: static !important;
+    width: 50% !important;
+    margin-left: 30px !important;
+    font-size: 48px !important;
+    font-family: 'Marck Script', cursive;
+    color: rgb(190, 190, 0);
+    margin-right: 10px;
+    clear: none;
+    display: inline-block !important;
+}
+.pos-bottom .element.element-text span{
+    background: none !important;
+    border: none !important;
+    display: inline !important;
+    position: static !important;
+    font-size: 48px;
+    font-family: 'Marck Script', cursive;
+    color: rgb(190, 190, 0);
+    clear: none;
+}
