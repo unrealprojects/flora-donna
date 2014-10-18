@@ -86,10 +86,11 @@ class AppPagination {
 	 * @param int $limit The number of items per page (default: 10)
 	 * @param int $range The range for the displayed page (default: 5)
 	 */
-	public function __construct($name, $total, $current = 1, $limit = 10, $range = 5) {
+	public function __construct($name, $total, $current = 1, $limit = 10, $range = 30   ) {
 
 		// init vars
 		$this->_name    = $name;
+
 		$this->_total   = (int) max($total, 0);
 		$this->_current = (int) max($current, 1);
 		$this->_limit   = (int) max($limit, 1);
@@ -191,6 +192,7 @@ class AppPagination {
     public function render($url = 'index.php', $layout = null) {
 
         $html = '';
+
 
         // check if show all
         if ($this->_showall) {

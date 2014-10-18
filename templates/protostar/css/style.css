@@ -1022,7 +1022,8 @@ section.Node {
 
 .items .element.element-text.first h3 {
     position: absolute;
-    left: 27px;
+    width: 84px;
+    text-align: center;
     top: 40px;
 }
 
@@ -1036,7 +1037,8 @@ section.Node {
 
 .items .element.element-text h3 {
     position: absolute;
-    left: 27px;
+    width: 84px;
+    text-align: center;
     top: 40px;
 }
 
@@ -1045,20 +1047,6 @@ section.Node {
     top: 12px;
     text-align: center;
     width: 86px;
-    display: block;
-}
-
-.items .element.element-text.last h3 {
-    position: absolute;
-    left: 48px;
-    top: 30px;
-}
-
-.items .element.element-text.last span {
-    position: absolute;
-    top: 21px;
-    text-align: right;
-    width: 46px;
     display: block;
 }
 
