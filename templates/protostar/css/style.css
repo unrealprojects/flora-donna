@@ -184,7 +184,7 @@ div.header_strip:after {
 .text_h2 {
     font-family: 'Marck Script', cursive;
     font-size: 36px;
-    color: #4c7310;
+    color: #0EBD07;
 }
 
 .text_h3 {
@@ -358,7 +358,7 @@ div.logo_home img {
 p.wellc1 {
     font-size: 48px;
     font-family: 'Marck Script', cursive;
-    color: #4c7310;
+    color: #0EBD07;
     text-align: center;
 }
 
@@ -384,14 +384,14 @@ div.catalogs_header {
 div.catalogs_header hr {
     width: 100%;
     border: none;
-    border-top: 1px solid #4c7310;
+    border-top: 1px solid #0EBD07;
     position: relative;
     display: block;
 }
 
 div.catalogs_header p {
     margin-top: 20px;
-    color: #4c7310;
+    color: #0EBD07;
     margin: 0 auto;
     display: block;
     padding-bottom: 15px;
@@ -447,8 +447,10 @@ p.name {
 }
 
 p.name a {
-    color: #4c7310;
+    color: #0EBD07;
     text-decoration: none;
+    color: #0EBD07;
+    font-size: 48px;
 }
 
 p.description {
@@ -457,9 +459,10 @@ p.description {
 
 .catalogs_flowers span a {
     text-decoration: none;
-    color: #4c7310;
-    font-size: 30px;
+    color: #FF000A;
     font-family: 'Marck Script', cursive;
+    margin-right: 50px;
+    font-size: 42px;
 }
 
 .catalogs_flowers span {
@@ -486,7 +489,7 @@ div.News1_img img {
 
 .News1_description p a {
     text-align: left;
-    color: #4c7310;
+    color: #0EBD07;
     text-decoration: none;
 }
 
@@ -615,7 +618,7 @@ section.some_catalog {
 
 .two_foto_description p a {
     text-decoration: none;
-    color: #4C7310;
+    color: #0EBD07;
 }
 
 /*классы для позиционирования*/
@@ -858,10 +861,10 @@ section.Node {
     text-align: center;
     font-family: 'Marck Script', cursive;
     font-size: 66px;
-    color: #4c7310;
+    color: #0EBD07;
     margin: 0 auto;
-    border-top: 1px solid #4c7310;
-    border-bottom: 1px solid #4c7310;
+    border-top: 1px solid #0EBD07;
+    border-bottom: 1px solid #0EBD07;
     padding-bottom: 15px;
     padding-top: 15px;
     font-weight: 400;
@@ -911,7 +914,7 @@ section.Node {
 
 .blog-default .items h1 a {
     text-decoration: none;
-    color: #4C7310;
+    color: #0EBD07;
     font-family: 'Marck Script', cursive;
     font-size: 48px;
     width: 75%;
@@ -1113,7 +1116,7 @@ section.Node {
 }
 
 .blog-default .item h1 {
-    color: #4C7310;
+    color: #0EBD07;
     font-family: 'Marck Script', cursive;
     font-size: 60px;
     width: 66.66%;
@@ -1278,7 +1281,7 @@ section.Node {
     clear: both;
     margin-bottom: 30px;
     float: left;
-    border-bottom: 1px solid #4c7310;
+    border-bottom: 1px solid #0EBD07;
     padding-bottom: 30px;
     width: 100%;
 }
@@ -1309,7 +1312,7 @@ iframe {
     margin-top: 3px;
     font-family: 'Marck Script', cursive;
     font-size: 28px;
-    color: #4c7310;
+    color: #0EBD07;
     width: 50%;
     float: left;
     text-align: right;
@@ -1327,7 +1330,7 @@ iframe {
     height: 25px;
     padding-left: 5px;
     line-height: 25px;
-    border: 1px solid #4C7310 !important;
+    border: 1px solid #0EBD07 !important;
 }
 
 #yoo-zoo #comments #respond textarea {
@@ -1338,7 +1341,7 @@ iframe {
     max-width: 439px;
     height: 100px;
     border: 1px solid;
-    border-color: #4C7310;
+    border-color: #0EBD07;
     padding: 10px;
 }
 
@@ -1371,20 +1374,20 @@ iframe {
 }
 
 #yoo-zoo #comments #respond h3 {
-    color: #4C7310;
+    color: #0EBD07;
     font-family: 'Marck Script', cursive;
 }
 
 #yoo-zoo #comments .comment-head .author a {
     text-decoration: none;
-    color: #4C7310;
+    color: #0EBD07;
     font-family: 'Marck Script', cursive;
 }
 
 #yoo-zoo #comments #respond form div.actions input[type="submit"] {
     font-size: 15px;
     font-family: 'Open Sans', sans-serif;
-    background-color: #4C7310;
+    background-color: #0EBD07;
     color: white;
     border-radius: 5px;
     padding: 15px;
@@ -1401,10 +1404,10 @@ iframe {
     text-align: center;
     font-family: 'Marck Script', cursive;
     font-size: 66px;
-    color: #4c7310;
+    color: #0EBD07;
     margin: 0 auto;
-    border-top: 1px solid #4c7310;
-    border-bottom: 1px solid #4c7310;
+    border-top: 1px solid #0EBD07;
+    border-bottom: 1px solid #0EBD07;
     font-weight: 400;
     margin-bottom: 50px;
 }
@@ -1458,12 +1461,12 @@ iframe {
 
 #yoo-zoo #comments #respond form #recaptcha_table tbody {
     border: 1px solid;
-    border-color: #4C7310;
+    border-color: #0EBD07;
 }
 
 #yoo-zoo #comments #respond form div.recaptcha_input_area #recaptcha_challenge_field_holder input {
     border: 1px solid;
-    border-color: #4C7310;
+    border-color: #0EBD07;
 }
 
 .item .pos-meta .zoo-gallery-wall a {
@@ -1557,7 +1560,7 @@ iframe {
     font-family: 'Marck Script', cursive;
     font-size: 40px;
     text-align: center;
-    color: #4c7310;
+    color: #0EBD07;
 }
 
 .zoo-item-list p.title {
@@ -1572,7 +1575,7 @@ iframe {
 
 .zoo-item-list p.title a {
     text-decoration: none;
-    color: #4C7310;
+    color: #0EBD07;
 }
 
 .zoo-item-list div.description {
@@ -1746,6 +1749,7 @@ ul.zoo-list > li {
 .item-page p.order3, p.order4, p.order5, p.order6, p.order7, p.order8, p.order9 {
     font-family: 'Open Sans', sans-serif;
     font-size: 18px;
+    text-indent: 40px;
     line-height: 2;
     padding-bottom: 30px;
 }
@@ -1754,15 +1758,15 @@ ul.zoo-list > li {
     text-align: center;
     font-family: 'Marck Script', cursive;
     font-size: 48px;
-    color: #4e7715;
+    color: #0EBD07;
     padding-bottom: 10px;
 }
 
 .item-page p.order2 {
     text-align: center;
-    font-size: 40px;
+    font-size: 36px;
     font-family: 'Marck Script', cursive;
-    color: #4e7715;
+    color: black;
     padding-bottom: 30px;
 }
 
@@ -1770,7 +1774,7 @@ ul.zoo-list > li {
     text-align: center;
     font-size: 35px;
     font-family: 'Marck Script', cursive;
-    color: #4e7715;
+    color: #0EBD07;
 }
 
 .item-page .order4, .item-page .order6, .item-page .order7, .item-page .order8, .item-page .order9 {
@@ -1782,8 +1786,10 @@ ul.zoo-list > li {
 .item-page ul li{
     padding-bottom: 40px;
     margin-left: 20px;
-    font-size: 24px;
+    font-size: 18px;
     font-family: 'Open Sans', sans-serif;
+    text-indent: 40px;
+    list-style: none;
 }
 
 .item-page ul{
@@ -1795,7 +1801,7 @@ ul.zoo-list > li {
     text-align: center;
     font-size: 35px;
     font-family: 'Marck Script', cursive;
-    color: #4e7715;
+    color: #0EBD07;
 }
 
 
@@ -1928,4 +1934,12 @@ ul.zoo-list > li {
     font-family: 'Marck Script', cursive;
     color: rgb(190, 190, 0);
     clear: none;
+}
+
+
+
+/*** Hover ***/
+a:hover {
+    text-shadow: 1px 1px 2px rgb(224, 255, 0);
+    text-decoration: underline !important;
 }
