@@ -1509,9 +1509,6 @@ iframe {
     content: '';
     display: block;
     position: absolute;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    border-radius: 50%;
     border: 1px solid #fff;
     width: 93%;
     height: 93%;
@@ -1526,7 +1523,6 @@ iframe {
     width: 100%;
     height: auto;
     display: block;
-    border-radius: 50%;
 }
 
 .zoo-item-list div.media-left a {

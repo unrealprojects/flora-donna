@@ -42,6 +42,13 @@ $sitename = $app->get('sitename');
     <link rel="stylesheet" type="text/css" href="templates/protostar/css/upf.css">
     <link rel="stylesheet" type="text/css" href="templates/protostar/css/style.css">
     <jdoc:include type="head" />
+    <script>
+        jQuery(document).ready(function(){
+            jQuery('.details.alignment-left').after(jQuery('.zoo-pagination').html());
+        });
+
+
+    </script>
 </head>
 <body>
 <section class="header">
