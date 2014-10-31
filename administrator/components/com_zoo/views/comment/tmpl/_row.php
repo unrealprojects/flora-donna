@@ -61,7 +61,7 @@ $author = $this->comment->getAuthor();
 	</td>
 	<td class="comment-on">
 		<?php $item = $this->comment->getItem(); ?>
-		<?php $link = $this->app->link(array('controller' => 'item', 'task' => 'edit', 'cid[]' => $item->id)); ?>
-		<a href="<?php echo $link; ?>"><?php echo $item->name; ?></a>
+		<?php $link = $this->app->link(array('controller' => 'item'/*, 'task' => 'edit'*/, 'cid[]' => $item->id)); ?>
+		<a href="/shlyumbergery/item/<?php echo $item->alias; ?>"><?php echo $item->name; ?></a>
 	</td>
 </tr>

@@ -1432,12 +1432,13 @@ iframe {
 }
 
 #yoo-zoo #comments ul.level1 li {
-    margin-bottom: 80px;
+    margin-bottom: 0px;
 }
 
 #yoo-zoo #comments #respond {
     margin-left: 30px;
     margin-right: 30px;
+    margin-top: 40px;
 }
 
 #yoo-zoo #comments #respond form #recaptcha_table tbody {
