@@ -12,7 +12,7 @@ class JConfig {
 	public $debug = '0';
 	public $debug_lang = '0';
 	public $dbtype = 'mysqli';
-	public $host = 'sql.unrealprojects.com';
+	public $host = 'localhost';
 	public $user = 'root';
 	public $password = '987975';
 	public $db = 'flora-donna';
