@@ -1070,7 +1070,7 @@ section.Node {
     display: block;
 }
 
-.item .pos-meta a:after {
+.item .pos-meta img:after {
     content: '';
     display: block;
     position: absolute;
@@ -1089,7 +1089,7 @@ section.Node {
     float: left;
 }
 
-.item .pos-meta a {
+.item .pos-meta img {
     margin-bottom: 21px;
     display: block;
 }
