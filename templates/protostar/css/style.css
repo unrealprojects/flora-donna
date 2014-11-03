@@ -931,7 +931,7 @@ section.Node {
 
 }
 
-.items .pos-meta a {
+.items .pos-meta img {
     position: relative;
     margin-bottom: 40px;
 }
@@ -942,7 +942,7 @@ section.Node {
     display: block;
 }
 
-.items .pos-meta a:after {
+.items .pos-meta img:after {
     content: '';
     display: block;
     position: absolute;
